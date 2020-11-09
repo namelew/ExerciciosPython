@@ -1,0 +1,4 @@
+irn = int(input())
+o = int(input())
+r = o - irn
+print(o + r)
