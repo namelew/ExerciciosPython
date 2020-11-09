@@ -1,0 +1,5 @@
+n = input("Digite seu nome completo\n").strip()
+n = n.split()
+print(f"Prazer em te conhecer!\nSeu primeiro nome é {n[0]}")
+print(f"E seu último nome é {n[-1]}")
+#Ou print(f"E seu último nome é {n[n.len()-1]}")

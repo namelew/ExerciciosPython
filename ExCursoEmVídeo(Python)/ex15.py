@@ -1,0 +1,5 @@
+d = int(input('A quantos dias foi alugado?\n'))
+k = float(input('Quantos km foram rodados no total, durante esses dias?\n'))
+print('-'*20)
+print(f'Preço total a pagar\nR$ {60*d+0.15*k:.2f}')
+print('-'*20)
