@@ -1,14 +1,18 @@
-# código baseado no post *Gerando senhas aleatórios com python*
-# da página do instagram @divers_tech 
-from random import sample
-from string import ascii_letters
-
-letras = ascii_letters
-numeros = '0123456789'
-special_caracters = "-+*%&!_"
-
-total = letras + numeros + special_caracters
-tamanho = int(input("Tamanho da senha: "))
-
-senha = ''.join(sample(total, tamanho))
-print(senha) 
+print("",end=" "*7)
+print("A")
+print("",end=" "*6)
+print("B B")
+print("",end=" "*5)
+print("C   C")
+print("",end=" "*4)
+print("D     D")
+print("",end=" "*3)
+print("E       E")
+print("",end=" "*4)
+print("D     D")
+print("",end=" "*5)
+print("C   C")
+print("",end=" "*6)
+print("B B")
+print("",end=" "*7)
+print("A")
