@@ -1,18 +1,16 @@
-print("",end=" "*7)
-print("A")
-print("",end=" "*6)
-print("B B")
-print("",end=" "*5)
-print("C   C")
-print("",end=" "*4)
-print("D     D")
-print("",end=" "*3)
-print("E       E")
-print("",end=" "*4)
-print("D     D")
-print("",end=" "*5)
-print("C   C")
-print("",end=" "*6)
-print("B B")
-print("",end=" "*7)
-print("A")
+pares = []
+impares = []
+entrada = input().split()
+for item in entrada:
+    if int(item) % 2 == 0:
+        pares.append(int(item))
+    else:
+        impares.append(int(item))
+print("Pares: ", end='')
+for n in pares:
+    print(n, end=' ')
+print()
+print("Impares: ", end='')
+for n in impares:
+    print(n, end=' ')
+print()
