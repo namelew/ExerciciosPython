@@ -21,8 +21,9 @@ E uma classe conta com os atributos
     - public saldo --> float
 """
 class Banco(object):
-    __total = 10000
-    TaxaReserva = 0.1
+    __total = 10000 # atributo estático(private)
+    TaxaReserva = 0.1 # atributo dinâmico(public)
+    # ambos também podem ser utilizado em métodos
     __reservaExigida = __total * TaxaReserva
 
     def podeFazerEmprestimo(self, valor):
