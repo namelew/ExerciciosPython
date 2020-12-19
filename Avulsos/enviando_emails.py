@@ -13,4 +13,3 @@ mensagem = "Siga o LED no Instagram!".encode('utf-8')
 email.login(remetente, senha)
 email.sendmail(remetente, destinatario, mensagem)
 email.quit()
-
